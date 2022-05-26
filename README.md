@@ -1,6 +1,6 @@
-# s21_matrix - simple matrix operations library
+# s21_matrix - simple matrix operations library in C language
 
-### Matrix structure in C language:
+### Matrix structure:
 
 ```c
 typedef enum {
