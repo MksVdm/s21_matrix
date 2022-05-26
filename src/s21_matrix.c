@@ -49,7 +49,7 @@ int s21_eq_matrix(matrix_t *a, matrix_t *b) {
     if (a && b && state && a->columns == b->columns && a->rows == b->rows) {
         for (int i = 0; equal && i < a->rows; i++) {
             for (int j = 0; equal && j < a->columns; j++) {
-                equal = fabs(a->matrix[i][j] - b->matrix[i][j]) < ACCURACY;
+                equal = equal && fabs(a->matrix[i][j] - b->matrix[i][j]) < ACCURACY;
             }
         }
     } else {
