@@ -1,4 +1,4 @@
-# matrix - simple matrix operations library in C language
+# Matrix - simple matrix operations library in C language
 
 ### Matrix structure:
 
